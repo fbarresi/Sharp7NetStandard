@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+    <id>Sharp7NetStandard</id>
+    <version>$version$</version>
+    <title>Sharp7 NetStandard</title>
+    <authors>Federico Barresi</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>(.Net Stardard 2.0) Multi-platform Ethernet S7 PLC communication suite (C# port of Snap7 Client by davenardella)</description>
+    <projectUrl>https://github.com/fbarresi/Sharp7NetStandard</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/fbarresi/Sharp7NetStandard/master/LICENSE</licenseUrl>
+    <copyright>Copyright 2018</copyright>
+    </metadata>
+  <files>
+    <file src="..\out\Release\netstandard2.0\Sharp7.*" target="lib\netstandard2.0" />
+  </files>
+</package>
